@@ -55,17 +55,18 @@ body/*seletor de tag*/{
     background-color: white;
     width: 400px/*aumenta a largura da div*/;
     text-align: center/*alinha o texto contido para o centro*/;
-    padding-top /*aumenta o espaçamente entre os elementos para cima*/: 10px;
-    padding-left/*aumenta o espaçamente entre os elementos para a esquerda*/: 38px;
-    padding-right/*aumenta o espaçamente entre os elementos para a direita*/ : 38px;
-    padding-bottom/*aumenta o espaçamente entre os elementos para baixo*/: 38px;
+    padding-top /*aumenta o espaçamento para cima na col*/: 10px;
+    padding-left/*aumenta o espaçamente  para a esquerda na col*/: 38px;
+    padding-right/*aumenta o espaçamente  para a direita na col*/ : 38px;
+    padding-bottom/*aumenta o espaçamente para baixo na col*/: 38px;
+    box-shadow: 0px 4px 4px 0px rgb(8, 0, 0, 0.5);
     
 }
 
 .titulo/*seletor de classe*/{
     font-size: 32px/*define o tamanho da fonte*/;
     margin-top/*aumenta o espaçamento de uma margem para cima*/: 14px;
-    margin-bottom/*aumenta o espaçamento de uma margem para baixo*/: 12px;
+    margin-bottom/*aumenta o espaçamento de uma margem para baixo */: 12px;
     font-weight/*modifica os caracteres */: bold;
 }
 .texto{
@@ -76,4 +77,59 @@ body/*seletor de tag*/{
 .pedido{
     margin-top: 32px;
     text-align: left;
+}
+.rotulo{
+    font-weight: bold;
+    font-size: 16px;
+    display: block;
+    margin-bottom: 8px;
+}
+.campo-texto{
+    width: 100%;
+    font-size: 16px;
+    color: #434343;
+    padding: 7px 13px;
+    margin-bottom: 16px;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+}
+
+.botao-reservar{
+    width: 100%;
+    background-color: #FFC107;
+    color: white;
+    line-height: 150%;
+    padding-top: 6px;
+    padding-bottom: 6px ;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 16px;
+}
+
+#col2{
+    width: 800px;
+    margin-left: 39px;    
+}
+
+.oferta{
+    font-size: 36px;
+    font-weight: bold;
+    color: white;
+}
+
+.destaque{
+    color: #445EE5;
+}
+
+.texto-oferta{
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.tudo{
+    display:  flex;
+    align-items: center ;
+    justify-content: center;
+    height: 100vh;   
 }
