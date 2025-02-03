@@ -47,12 +47,12 @@ table {
 
 
 body/*seletor de tag*/{
-    background-color: #FFC107/*muda a cor do fundo*/; 
+    background-color: #5B913B/*muda a cor do fundo*/; 
     font-family: arial;
 }
 
 #col/*seletor de id*/{
-    background-color: white;
+    background-color: #FFE8B6;
     width: 400px/*aumenta a largura da div*/;
     text-align: center/*alinha o texto contido para o centro*/;
     padding-top /*aumenta o espaçamento para cima na col*/: 10px;
@@ -64,28 +64,34 @@ body/*seletor de tag*/{
 }
 
 .titulo/*seletor de classe*/{
+    font-family:'Trebuchet MS';
     font-size: 32px/*define o tamanho da fonte*/;
     margin-top/*aumenta o espaçamento de uma margem para cima*/: 14px;
     margin-bottom/*aumenta o espaçamento de uma margem para baixo */: 12px;
     font-weight/*modifica os caracteres */: bold;
+    
 }
 .texto{
     font-size: 18px;
     font-weight: bold;
+    font-family: Arial;
 }
 
 .pedido{
     margin-top: 32px;
+    font-family: Arial;
     text-align: left;
 }
 .rotulo{
     font-weight: bold;
+    font-family: Arial;
     font-size: 16px;
     display: block;
     margin-bottom: 8px;
 }
 .campo-texto{
     width: 100%;
+    font-family: Arial;
     font-size: 16px;
     color: #434343;
     padding: 7px 13px;
@@ -96,7 +102,7 @@ body/*seletor de tag*/{
 
 .botao-reservar{
     width: 100%;
-    background-color: #FFC107;
+    background-color: #5B913B;
     color: white;
     line-height: 150%;
     padding-top: 6px;
@@ -113,18 +119,20 @@ body/*seletor de tag*/{
 }
 
 .oferta{
-    font-size: 36px;
+    font-size: 38px;
+    font-family:'Trebuchet MS';
     font-weight: bold;
-    color: white;
+    color: #FFE8B6;
 }
 
 .destaque{
-    color: #445EE5;
+    color: #D99D81;
 }
 
 .texto-oferta{
     font-size: 18px;
     margin-top: 10px;
+    font-family: Arial;
 }
 
 .tudo{
